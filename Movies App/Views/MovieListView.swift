@@ -29,8 +29,8 @@ struct MovieCellView: View {
                 Text(movie.year)
                     .opacity(0.5)
                     .padding(.top, 10)
-            }.padding(5)
+            }
             Spacer()
-        }.contentShape(Rectangle())
+        }
     }
 }
