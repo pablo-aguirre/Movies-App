@@ -41,7 +41,7 @@ struct MovieViewModel {
     }
     
     var poster: String {
-        movie.title
+        movie.poster
     }
     
     var year: String {

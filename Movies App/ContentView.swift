@@ -14,7 +14,7 @@ struct ContentView: View {
                 HTTPClient().getMoviewBy(search: "batman") { result in
                     switch result {
                     case .success(let movies):
-                        print(movies)
+                        print(movies!)
                     case .failure(let error):
                         print(error.localizedDescription)
                     }
