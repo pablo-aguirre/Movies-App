@@ -31,6 +31,7 @@
 		6EBB52CD2C46B54500605A30 /* URLImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLImage.swift; sourceTree = "<group>"; };
 		6EBB52CF2C46B7FC00605A30 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		6EBB52D12C46BA6800605A30 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		6EBB52D32C46C6F600605A30 /* Movies-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Movies-App-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +64,7 @@
 		6EBB52AF2C46B29200605A30 /* Movies App */ = {
 			isa = PBXGroup;
 			children = (
+				6EBB52D32C46C6F600605A30 /* Movies-App-Info.plist */,
 				6EBB52C42C46B3BA00605A30 /* Screens */,
 				6EBB52C32C46B3B000605A30 /* Views */,
 				6EBB52C12C46B3A100605A30 /* ViewModels */,
@@ -371,6 +373,7 @@
 				DEVELOPMENT_TEAM = U33WGMG679;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Movies-App-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -400,6 +403,7 @@
 				DEVELOPMENT_TEAM = U33WGMG679;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Movies-App-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
