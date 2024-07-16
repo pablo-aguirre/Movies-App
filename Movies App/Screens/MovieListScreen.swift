@@ -22,7 +22,15 @@ struct MovieListScreen: View {
             }
             .textFieldStyle(.roundedBorder)
             .padding()
-            MovieListView(movies: movieListVM.movies)
+            
+            Spacer()
+            if self.movieListVM.loadingState == .success {
+                MovieListView(movies: movieListVM.movies)
+            } else if self.movieListVM.loadingState == .failed {
+                FailedView().padding()
+            } else if self.movieListVM.loadingState == .loading {
+                LoadingView().padding()
+            }
         }
         .navigationTitle("Movies")
         .embedNavigationView()
