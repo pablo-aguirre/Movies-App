@@ -16,7 +16,7 @@ enum NetworkError: Error {
 class HTTPClient {
     
     func getMoviewBy(search: String, completion: @escaping (Result<[Movie]?, NetworkError>) -> Void)  {
-        guard let url = URL(string: "https://www.omdbapi.com/?s=\(search)&apikey=\(Constants.API_KEY)") else { return completion(.failure(.badURL)) }
+        guard let url = URL.forMoviesByName(search) else { return completion(.failure(.badURL)) }
         
         URLSession.shared.dataTask(with: url) { data, response, error in
             guard let data = data, error == nil else { return completion(.failure(.noData)) }

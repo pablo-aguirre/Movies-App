@@ -17,6 +17,7 @@
 		6EBB52CE2C46B54500605A30 /* URLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBB52CD2C46B54500605A30 /* URLImage.swift */; };
 		6EBB52D02C46B7FC00605A30 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBB52CF2C46B7FC00605A30 /* Movie.swift */; };
 		6EBB52D22C46BA6800605A30 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBB52D12C46BA6800605A30 /* HTTPClient.swift */; };
+		6EBB52D52C46C77200605A30 /* URL+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBB52D42C46C77200605A30 /* URL+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		6EBB52CF2C46B7FC00605A30 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		6EBB52D12C46BA6800605A30 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 		6EBB52D32C46C6F600605A30 /* Movies-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Movies-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		6EBB52D42C46C77200605A30 /* URL+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 		6EBB52C52C46B3C200605A30 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				6EBB52D42C46C77200605A30 /* URL+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 				6EBB52B32C46B29200605A30 /* ContentView.swift in Sources */,
 				6EBB52D22C46BA6800605A30 /* HTTPClient.swift in Sources */,
 				6EBB52CE2C46B54500605A30 /* URLImage.swift in Sources */,
+				6EBB52D52C46C77200605A30 /* URL+Extensions.swift in Sources */,
 				6EBB52B12C46B29200605A30 /* Movies_AppApp.swift in Sources */,
 				6EBB52CC2C46B53C00605A30 /* Rating.swift in Sources */,
 				6EBB52C92C46B3EB00605A30 /* ImageLoader.swift in Sources */,
