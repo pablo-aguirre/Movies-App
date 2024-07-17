@@ -18,7 +18,7 @@ class MovieListViewModel: ViewModelBase {
         
         self.loadingState = .loading
         
-        httpClient.getMoviewBy(search: name) { result in
+        httpClient.getMoviesBy(search: name) { result in
             switch result {
             case .success(let movies):
                 if let movies = movies {
