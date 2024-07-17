@@ -11,7 +11,11 @@ struct MovieListView: View {
     let movies: [MovieViewModel]
     
     var body: some View {
-        List(self.movies, id: \.imdbId) { MovieCellView(movie: $0) }
+        List(self.movies, id: \.imdbId) { movie in
+            NavigationLink(destination: MovieDetailScreen(imdbId: movie.imdbId)) {
+                MovieCellView(movie: movie)
+            }
+        }
     }
 }
 
@@ -34,3 +38,4 @@ struct MovieCellView: View {
         }
     }
 }
+    
